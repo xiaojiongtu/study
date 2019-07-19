@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<!--    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">-->
+    <title>Title</title>
+    <script src="../js/browser.js"></script>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+    <style>
+        .input{
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<div id="box"></div>
+<script type="text/babel">
+    let app=document.getElementById('box')
+    ReactDOM.render(
+        <div>
+            <label htmlFor="name">姓名：</label>
+            <input id="name" type="text" className="input"/>
+        </div>
+
+        ,app)
+
+</script>
+</body>
+</html>

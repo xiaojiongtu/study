@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="../js/browser.js"></script>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+</head>
+<body>
+ <div id="box"></div>
+ <script type="text/babel">
+     let app=document.getElementById('box')
+     let element=<span>我就是试试</span>
+     ReactDOM.render(element,app)
+     ReactDOM.render(<span>我就是试试</span>,app)
+
+ </script>
+</body>
+</html>
