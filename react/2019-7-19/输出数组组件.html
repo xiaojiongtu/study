@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <script src="../js/browser.js"></script>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+    let app=document.querySelector('#root')
+    //写组件
+    class Cmp1 extends React.Component{
+        constructor(...args){
+            super(...args)
+            this.a=12
+        }
+        // 一定要有render 函数
+        render(){
+            let arr=[
+                <div>223</div>,
+                <div>33</div>,
+                <div>3345</div>,
+            ]
+            return (
+                <div>
+                    {arr}
+                </div>
+            )
+
+
+        }
+    }
+    let a=<Cmp1/>;
+    //用组件，要用ReactDOM.render(),接受两个参数，一个是组件，一个是要渲染到页面上的地方
+    ReactDOM.render((<div>eeee{a}</div>),app)
+
+</script>
+</body>
+</html>

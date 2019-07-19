@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <script src="../js/browser.js"></script>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+    let app=document.querySelector('#root')
+    //父组件
+    class Parent extends React.Component{
+        constructor(...args){
+            super(...args)
+            this.a=12
+        }
+        // 一定要有render 函数
+        render(){
+
+            let arr=[
+                {id:1,name:'张三',age:18},
+                {id:2,name:'李四',age:18},
+                {id:3,name:'王五',age:18},
+            ]
+            return (
+                <ol>
+                    {
+                        arr.map(item=> <Child key={item.id} name={item.name} age={item.age}/>)
+                    }
+
+                </ol>
+            )
+
+
+        }
+    }
+    //子组件
+    class Child extends React.Component{
+        constructor(...args){
+            super(...args)
+            this.a=12
+        }
+        // 一定要有render 函数
+        render(){
+            return (
+                <li>
+                   姓名:{this.props.name}
+                   年龄:{this.props.age}
+                </li>
+            )
+
+
+        }
+    }
+    //用组件，要用ReactDOM.render(),接受两个参数，一个是组件，一个是要渲染到页面上的地方
+    ReactDOM.render(<Parent/>,app)
+
+</script>
+</body>
+</html>
