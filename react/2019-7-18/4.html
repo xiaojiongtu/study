@@ -16,12 +16,17 @@
        class Cmp1 extends React.Component{
          constructor(...args){
              super(...args)
+             this.a=12
          }
            // 一定要有render 函数
            render(){
-
+             let name='百度';
+              let url='http://www.baidu.com'
              return <div>
-                   <span>返回你想显示在页面上的东西即可</span>
+                 //传进去是字符串
+                  <span title="name">{name}</span>
+                 //传进去是变量
+                 <span title={name}>{name}</span>
              </div>
            }
        }

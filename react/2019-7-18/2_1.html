@@ -16,12 +16,18 @@
        class Cmp1 extends React.Component{
          constructor(...args){
              super(...args)
+             this.a=12
+         }
+         fn(){
+             console.log('输出方法')
          }
            // 一定要有render 函数
            render(){
-
+             let a='返回你想显示在页面上的东西即可eer';
              return <div>
-                   <span>返回你想显示在页面上的东西即可</span>
+                   <span>{a}</span><br/>
+                 <span>{this.a}</span>
+                 <p>{this.fn()}</p>
              </div>
            }
        }

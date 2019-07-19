@@ -16,18 +16,24 @@
        class Cmp1 extends React.Component{
          constructor(...args){
              super(...args)
+             this.a=12
          }
            // 一定要有render 函数
            render(){
+             let name='aaa';
+              let url='http://www.baidu.com'
+             return (
+                 <div>
+                    aaa
+                     {this.props.txt}
+                 </div>
+                 )
 
-             return <div>
-                   <span>返回你想显示在页面上的东西即可</span>
-             </div>
+
            }
        }
-
      //用组件，要用ReactDOM.render(),接受两个参数，一个是组件，一个是要渲染到页面上的地方
-      ReactDOM.render(<Cmp1/>,app)
+      ReactDOM.render(<Cmp1 txt="bbb"/>,app)
 
  </script>
 </body>

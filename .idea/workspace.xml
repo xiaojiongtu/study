@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63f9b607-9baa-4a9e-9cd5-a89cc6f3dae0" name="Default Changelist" comment="" />
+    <list default="true" id="63f9b607-9baa-4a9e-9cd5-a89cc6f3dae0" name="Default Changelist" comment="react">
+      <change afterPath="$PROJECT_DIR$/react/2019-7-18/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/2019-7-18/2_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/2019-7-18/3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/2019-7-18/4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/2019-7-18/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/2019-7-18/6-组件传参.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/2019-7-18/6-组件传参2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/2019-7-18/html的style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/2019-7-18/js的return问题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react/2019-7-18/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/react/2019-7-18/1.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,19 +26,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.ingnore">
+        <entry file="file://$PROJECT_DIR$/react/2019-7-18/6-组件传参.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="330">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/2019-7-18/6-组件传参2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/map实现.js">
+        <entry file="file://$PROJECT_DIR$/react/2019-7-18/html的style.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="435">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -36,16 +57,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>user_agent</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <favorite-branches>
@@ -69,11 +95,28 @@
         <option value="$PROJECT_DIR$/操作手册.md" />
         <option value="$PROJECT_DIR$/js/高阶函数.html" />
         <option value="$PROJECT_DIR$/js/map实现.js" />
+        <option value="$PROJECT_DIR$/js/call和apply的实现.js" />
+        <option value="$PROJECT_DIR$/js/bind的实现.js" />
+        <option value="$PROJECT_DIR$/js/set-weakset.js" />
+        <option value="$PROJECT_DIR$/react/1.html" />
+        <option value="$PROJECT_DIR$/react/2.html" />
+        <option value="$PROJECT_DIR$/react/3.html" />
+        <option value="$PROJECT_DIR$/react/js/2019-7-17/3.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-17/2.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/1.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/2.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/2_1.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/3.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/4.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/js的return问题.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/5.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/6-组件传参.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/6-组件传参2.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-18/html的style.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="814" />
@@ -86,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,20 +140,37 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-7-17" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-7-18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react/2019-7-18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -118,6 +179,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react" />
+      <recent name="$PROJECT_DIR$/react/js/2019-7-17" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react/2019-7-18" />
+      <recent name="$PROJECT_DIR$/react/js" />
+      <recent name="$PROJECT_DIR$/react" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,12 +203,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.2_1.html">
+    <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/study/react/2019-7-18/1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="2_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/study/react/2019-7-18/2_1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/study/react/2019-7-18/2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="map实现.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="map实现.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="set-weakset.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="set-weakset.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.2_1.html" />
+        <item itemvalue="JavaScript Debug.2.html" />
+        <item itemvalue="JavaScript Debug.1.html" />
+        <item itemvalue="Node.js.set-weakset.js" />
         <item itemvalue="Node.js.map实现.js" />
       </list>
     </recent_temporary>
@@ -156,7 +244,11 @@
       <workItem from="1560218365548" duration="2841000" />
       <workItem from="1560389653966" duration="2406000" />
       <workItem from="1560736682794" duration="880000" />
-      <workItem from="1560738991405" duration="3762000" />
+      <workItem from="1560738991405" duration="4144000" />
+      <workItem from="1560822222289" duration="4696000" />
+      <workItem from="1563348933872" duration="304000" />
+      <workItem from="1563415213103" duration="824000" />
+      <workItem from="1563416196980" duration="11236000" />
     </task>
     <task id="LOCAL-00001" summary="高阶函数">
       <created>1560218450260</created>
@@ -200,29 +292,43 @@
       <option name="project" value="LOCAL" />
       <updated>1560751895046</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="map">
+      <created>1560753458776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560753458776</updated>
+    </task>
+    <task id="LOCAL-00008" summary="react">
+      <created>1563519428305</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563519428305</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12164000" />
+    <option name="totallyTimeSpent" value="29606000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1440" height="814" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11064129" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27272728" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32963988" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.54432136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32963988" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.5304709" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.46537396" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.45567867" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -238,6 +344,7 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="BEK_SORT_TYPE" value="1" />
               <option name="RECENTLY_FILTERED_USER_GROUPS">
                 <collection />
               </option>
@@ -278,6 +385,16 @@
                   <option value="dev" />
                 </option>
               </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
             </list>
           </value>
         </entry>
@@ -289,7 +406,8 @@
     <MESSAGE value="扁平化数组去重" />
     <MESSAGE value="修改" />
     <MESSAGE value="map" />
-    <option name="LAST_COMMIT_MESSAGE" value="map" />
+    <MESSAGE value="react" />
+    <option name="LAST_COMMIT_MESSAGE" value="react" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/操作手册.md" />
@@ -300,12 +418,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../webapp/detail/manifest.json">
+    <entry file="file://$PROJECT_DIR$/../webapp/detail/manifest.json" />
+    <entry file="file://$PROJECT_DIR$/js/map实现.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bind的实现.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/set-weakset.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/js/react.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../[JavaScript权威指南(第6版)].源代码/examples/08.05.bind2.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/call和apply的实现.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/01.01.loancalc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="230" column="40" selection-start-line="230" selection-start-column="40" selection-end-line="230" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/06.01.inherit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/06.02.extend.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/06.03.extend2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/06.04.classof">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/08.01.defining_functions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/08.02.functions_as_data.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/08.03.extend_patched.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/08.04.addPrivateProperty.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-17/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/examples/08.05.bind2.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.ingnore">
       <provider selected="true" editor-type-id="text-editor">
@@ -314,10 +530,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/map实现.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="15">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-17/2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-17/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/2_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="90" lean-forward="true" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/js的return问题.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/6-组件传参.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/6-组件传参2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-18/html的style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>
