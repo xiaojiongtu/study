@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <script src="../js/browser.js"></script>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+</head>
+<body>
+ <div id="root"></div>
+ <script type="text/babel">
+     let app=document.querySelector('#root')
+      //写组件
+       class Cmp1 extends React.Component{
+         constructor(...args){
+             super(...args)
+             this.a=12
+         }
+
+           render() {
+               return (
+                   <div>
+                       {this.a}
+                       <input value="+1" type="button"/>
+                   </div>
+               );
+           }
+       }
+
+     ReactDOM.render(<Cmp1/>,app)
+
+ </script>
+</body>
+</html>
