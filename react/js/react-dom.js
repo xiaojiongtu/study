@@ -830,7 +830,7 @@ var EventPluginRegistry = Object.freeze({
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  *
- * 
+ *
  */
 
 function makeEmptyFunction(arg) {
@@ -2180,7 +2180,7 @@ function isFallbackCompositionEnd(topLevelType, nativeEvent) {
  */
 function getDataFromCustomEvent(nativeEvent) {
   var detail = nativeEvent.detail;
-  if (typeof detail === 'object' && 'data' in detail) {
+  if (typeof detail === 'object' && 'data.js' in detail) {
     return detail.data;
   }
   return null;
@@ -4055,7 +4055,7 @@ var getActiveElement_1$1 = getActiveElement;
  * LICENSE file in the root directory of this source tree.
  *
  * @typechecks
- * 
+ *
  */
 
 /*eslint-disable no-self-compare */
@@ -4162,7 +4162,7 @@ var isTextNode_1 = isTextNode;
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  *
- * 
+ *
  */
 
 
@@ -12138,7 +12138,7 @@ function setValueForProperty(node, name, value) {
   }
 
   {
-    
+
   }
 }
 
@@ -12153,7 +12153,7 @@ function setValueForAttribute(node, name, value) {
   }
 
   {
-    
+
   }
 }
 
@@ -13655,7 +13655,7 @@ var possibleStandardNames = {
   coords: 'coords',
   crossorigin: 'crossOrigin',
   dangerouslysetinnerhtml: 'dangerouslySetInnerHTML',
-  data: 'data',
+  data: 'data.js',
   datetime: 'dateTime',
   'default': 'default',
   defaultchecked: 'defaultChecked',
