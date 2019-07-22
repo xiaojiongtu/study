@@ -16,16 +16,17 @@
        class Cmp1 extends React.Component{
          constructor(...args){
              super(...args)
-             // this.a=12
+             this.a=12
          }
           fn(){
              //属性是只读的，不可以更改
-             this.props.a++
+           this.a++;
+           this.forceUpdate()
           }
            render() {
                return (
                    <div>
-                       {this.props.a}
+                       {this.a}
                        <input value="+1" onClick={this.fn.bind(this)} type="button"/>
                    </div>
                );
