@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <script src="../js/browser.js"></script>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+</head>
+<body>
+ <div id="root"></div>
+ <script type="text/babel">
+     let app=document.querySelector('#root')
+      //写组件
+       class Cmp1 extends React.Component{
+         constructor(...args){
+             super(...args)
+             console.log('constructor')
+             this.state={
+                 a:0
+             }
+         }
+           fn(){
+             this.setState({
+                 a:this.state.a+1
+             })
+           }
+            componentDidMount(){
+               console.log('挂载了')
+            }
+           componentDidUpdate(){
+               console.log('更新了')
+           }
+           shouldComponentUpdate(nextProps,nextState){
+
+              console.log(this.state,nextState)
+
+               return true
+           }
+           render() {
+             console.log('渲染了')
+               return (
+                   <div>
+                     <input type="button" value="+1" onClick={this.fn.bind(this)}/>
+                   </div>
+               );
+           }
+       }
+
+     ReactDOM.render(<Cmp1/>,app)
+ </script>
+</body>
+</html>

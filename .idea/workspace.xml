@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63f9b607-9baa-4a9e-9cd5-a89cc6f3dae0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/react/2019-7-22/props 变化.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/2019-7-22/强制渲染.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react/2019-7-22/状态和初始化.html" afterDir="false" />
+    <list default="true" id="63f9b607-9baa-4a9e-9cd5-a89cc6f3dae0" name="Default Changelist" comment="事件">
+      <change afterPath="$PROJECT_DIR$/react/2019-7-22/钩子函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react/2019-7-22/钩子函数2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react/2019-7-22/属性和状态.html" beforeDir="false" afterPath="$PROJECT_DIR$/react/2019-7-22/属性和状态.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +35,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react/2019-7-22/props 变化.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="468">
+              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react/2019-7-22/钩子函数.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react/2019-7-22/钩子函数2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -120,6 +136,8 @@
         <option value="$PROJECT_DIR$/react/2019-7-22/状态和初始化.html" />
         <option value="$PROJECT_DIR$/react/2019-7-22/强制渲染.html" />
         <option value="$PROJECT_DIR$/react/2019-7-22/props 变化.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-22/钩子函数.html" />
+        <option value="$PROJECT_DIR$/react/2019-7-22/钩子函数2.html" />
       </list>
     </option>
   </component>
@@ -183,16 +201,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/react" />
-      <recent name="$PROJECT_DIR$/react/js/2019-7-17" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/react/2019-7-22" />
       <recent name="$PROJECT_DIR$/react/2019-7-20" />
       <recent name="$PROJECT_DIR$/react/2019-7-19" />
       <recent name="$PROJECT_DIR$/react/20197-19" />
       <recent name="$PROJECT_DIR$/react/2019-7-18" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react" />
+      <recent name="$PROJECT_DIR$/react/js/2019-7-17" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2_1.html">
+  <component name="RunManager" selected="JavaScript Debug.钩子函数.html">
     <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/study/react/2019-7-18/1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -217,7 +235,7 @@
     <configuration name="2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/study/react/2019-7-18/2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="map实现.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="map实现.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="钩子函数.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/study/react/2019-7-22/钩子函数.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="set-weakset.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="set-weakset.js" working-dir="$PROJECT_DIR$/js">
@@ -225,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.钩子函数.html" />
         <item itemvalue="JavaScript Debug.2_1.html" />
         <item itemvalue="JavaScript Debug.2.html" />
         <item itemvalue="JavaScript Debug.1.html" />
         <item itemvalue="Node.js.set-weakset.js" />
-        <item itemvalue="Node.js.map实现.js" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +270,8 @@
       <workItem from="1560822222289" duration="4696000" />
       <workItem from="1563348933872" duration="304000" />
       <workItem from="1563415213103" duration="824000" />
-      <workItem from="1563416196980" duration="22907000" />
+      <workItem from="1563416196980" duration="23164000" />
+      <workItem from="1563849303529" duration="2536000" />
     </task>
     <task id="LOCAL-00001" summary="高阶函数">
       <created>1560218450260</created>
@@ -338,14 +357,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563791385334</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="事件">
+      <created>1563793444985</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563793444985</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41277000" />
+    <option name="totallyTimeSpent" value="44070000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="814" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="814" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27272728" />
@@ -718,6 +744,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-22/强制渲染.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react/2019-7-22/属性和状态.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -732,17 +765,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/2019-7-22/强制渲染.html">
+    <entry file="file://$PROJECT_DIR$/react/2019-7-22/props 变化.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="468">
+          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react/2019-7-22/props 变化.html">
+    <entry file="file://$PROJECT_DIR$/react/2019-7-22/钩子函数.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="446">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react/2019-7-22/钩子函数2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
