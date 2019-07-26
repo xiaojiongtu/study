@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <script src="../js/browser.js"></script>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+</head>
+<body>
+ <div id="root"></div>
+ <script type="text/babel">
+     let app=document.querySelector('#root')
+      //写组件
+       class Parent extends React.Component{
+         constructor(...args){
+             super(...args)
+             this.state={
+                 a:13
+             }
+         }
+          fn(n){
+             this.setState({
+                 a:this.state.a+n
+             })
+          }
+           render() {
+               return (
+                   <div>
+                       <Child parent={this}/>
+                      父组件：{this.state.a}
+                   </div>
+               );
+           }
+       }
+     class Child extends React.Component{
+         constructor(...args){
+             super(...args)
+             this.state={
+                 a:13
+             }
+         }
+         fn(){
+            this.props.parent.fn(parseInt(this.refs.txt.value))
+         }
+         render() {
+             return (
+                 <div>
+                     <input ref="txt"/>
+                    子组件: <input value="+1" onClick={this.fn.bind(this)} type="button"/>
+                 </div>
+             );
+         }
+     }
+
+     ReactDOM.render(<Parent />,app)
+
+ </script>
+</body>
+</html>
