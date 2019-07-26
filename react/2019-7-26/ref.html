@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <script src="../js/browser.js"></script>
+    <script src="../js/react.js"></script>
+    <script src="../js/react-dom.js"></script>
+</head>
+<body>
+ <div id="root"></div>
+ <script type="text/babel">
+     let app=document.querySelector('#root')
+      //写组件
+       class Parent extends React.Component{
+         constructor(...args){
+             super(...args)
+             this.state={
+                 a:13
+             }
+         }
+          fn(){
+             //属性是只读的，不可以更改
+              console.log(this.refs);
+              this.refs.child.fn()
+          }
+           render() {
+               return (
+                   <div>
+                       <Child ref="child" a={2}/>
+                       <Child ref="child" a={12}/>
+                      父组件： <input value="+1" onClick={this.fn.bind(this)} type="button"/>
+                   </div>
+               );
+           }
+       }
+     class Child extends React.Component{
+         constructor(...args){
+             super(...args)
+             this.state={
+                 a:13
+             }
+         }
+         fn(){
+             //属性是只读的，不可以更改
+             this.setState({
+                 a:this.state.a+1
+             })
+         }
+         render() {
+             return (
+                 <div>
+                    子组件:{this.state.a}
+                 </div>
+             );
+         }
+     }
+
+     ReactDOM.render(<Parent />,app)
+
+ </script>
+</body>
+</html>
