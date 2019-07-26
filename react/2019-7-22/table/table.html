@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="./index.css">
+    <style>
+        .search-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .fr,.fl{
+           display: flex;
+            text-align: right;
+        }
+        .container{
+            width: 1200px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+<!--这个是你放表格的地方，如果id是别的就把id 改了-->
+<div id="app">
+   <div class="container">
+       <div >
+           <el-form :inline="true" :model="formInline" class="demo-form-inline">
+               <el-form-item label="审批人">
+                   <el-input v-model="formInline.user" placeholder="哈哈"></el-input>
+               </el-form-item>
+               <el-form-item label="hshhs ">
+                   <el-input v-model="formInline.user" placeholder="哈哈"></el-input>
+               </el-form-item>
+               <el-form-item label="活动区域">
+                   <el-input v-model="formInline.user" placeholder="哈哈"></el-input>
+               </el-form-item>
+               <el-form-item label="活动区域">
+                   <el-input v-model="formInline.user" placeholder="哈哈"></el-input>
+               </el-form-item>
+               <el-form-item>
+                   <el-button type="primary" @click="onSubmit">查询</el-button>
+               </el-form-item>
+           </el-form>
+       </div>
+       <div>
+           <el-table
+                   v-loading="tableLoading"
+                   :data="tableData"
+                   border
+                    :show-header='false'
+                   style="width: 100%">
+               <el-table-column
+                       prop="date"
+                       label="日期"
+                       width="100"
+               >
+               </el-table-column>
+               <el-table-column
+                       prop="name"
+                       label="姓名"
+                       >
+               </el-table-column>
+               <el-table-column
+                       prop="address"
+                       label="地址">
+               </el-table-column>
+           </el-table>
+       </div>
+   </div>
+    <div class="fr container">
+        <el-pagination @current-change="getListData" @size-change="getListData" :current-page.sync="query.page"
+                       :page-size.sync="query.pageSize" layout="total, prev, pager, next, jumper"
+                       :page-count="total"
+                       background>
+        </el-pagination>
+    </div>
+</div>
+</body>
+<!-- 先引入 Vue -->
+<script src="vue.js"></script>
+<!-- 引入组件库 -->
+<script src="index.js"></script>
+<script>
+    new Vue({
+        el: '#app',
+        data: function() {
+            return {
+                tableLoading: false,
+                search:'',
+                formInline:{
+                    user: '',
+                    region: ''
+                },
+                total:5,//页数
+                query:{
+                    page:1,
+                    pageSise:10
+                },
+                tableData: [{
+                    date: '2016-05-02',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1518 弄'
+                }, {
+                    date: '2016-05-04',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1517 弄'
+                }, {
+                    date: '2016-05-01',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1519 弄'
+                }, {
+                    date: '2016-05-03',
+                    name: '王小虎',
+                    address: '上海市普陀区金沙江路 1516 弄'
+                },
+                    {
+                        date: '2016-05-04',
+                        name: '王小虎',
+                        address: '上海市普陀区金沙江路 1517 弄'
+                    }
+                ],
+            }
+        },
+        methods:{
+            getListData(){
+                // this.tableLoading = true; 请求到数据了设置成false
+              console.log(this)
+
+            },
+            //查询，点击的时候触发
+            onSubmit() {
+                //this.query//  调用data里的数据都要加data
+                console.log('submit!');
+            }
+        },
+        mounted() {
+            this.getListData();//在这个调用函数
+        },
+    })
+</script>
+</html>

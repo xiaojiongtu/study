@@ -16,14 +16,13 @@
        class Cmp1 extends React.Component{
          constructor(...args){
              super(...args)
-             console.log('constructor')
              this.state={
-                 a:0
+                 a:true
              }
-         }
+          }
            fn(){
              this.setState({
-                 a:this.state.a+1
+                 a:!this.state.a
              })
            }
             componentDidMount(){
@@ -32,21 +31,36 @@
            componentDidUpdate(){
                console.log('更新了')
            }
-           shouldComponentUpdate(nextProps,nextState){
 
-              console.log(this.state,nextState)
-
-               return false  //是否更新
-           }
            render() {
              console.log('渲染了')
                return (
                    <div>
-                     <input type="button" value="+1" onClick={this.fn.bind(this)}/>
+                     <input type="button" value="显示/隐藏" onClick={this.fn.bind(this)}/>
+                       {this.state.a?(
+                           <Cmp2 />
+                       ):('')}
                    </div>
                );
            }
        }
+
+      class Cmp2 extends ReactDOM.Component{
+          constructor(...args){
+              super(...args)
+          }
+          /*componentWillUnmount(){
+              console.log('卸载了');
+          }*/
+          render() {
+              console.log('渲染了')
+              return (
+                  <div>
+                      <input type="button" value="显示/隐藏"/>
+                  </div>
+              );
+          }
+      }
 
      ReactDOM.render(<Cmp1/>,app)
  </script>
