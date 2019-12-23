@@ -1,15 +1,19 @@
 <template>
   <div id="app">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+     <login></login>
+    userid:{{$store.state.user_id}}
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Login from "./components/login";
 
 export default {
   name: 'app',
   components: {
+    Login,
     HelloWorld
   }
 }
